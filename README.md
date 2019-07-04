@@ -12,3 +12,7 @@ Development of this extension began during the
 For help with installing FEniCS inside Slicer see the
 [Slicer FEniCS Installation](https://projectweek.na-mic.org/PW31_2019_Boston/Projects/SlicerFEniCS/slicer-fenics-install.html)
 instructions.
+
+## Demonstration
+
+![Slicer FEniCS demo](demo.gif)
