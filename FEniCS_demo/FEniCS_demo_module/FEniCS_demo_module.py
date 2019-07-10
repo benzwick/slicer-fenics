@@ -324,7 +324,6 @@ class FEniCS_demo_moduleLogic(ScriptedLoadableModuleLogic):
         dataPoints = grid.GetPoints()
         for i in range(0, dataPoints.GetNumberOfPoints()):
             dataPoints.SetPoint(i, x[i, 0], x[i, 1], x[i, 2])
-            grid.SetPoints(dataPoints)
         grid.Modified()
         node.SetAndObserveMesh(grid)
         node.EndModify(wasModifying)
